@@ -1,6 +1,7 @@
 # Elliptic-Curve-Calculator
 Elliptic curve: E(Fp): Y^2 =X^3+AX+B where p prime
 
-Currently: A=8, B=15
+```findSet(p, a, b)``` \
+Given p prime, A, B, findSet returns the set of F-rational points on E as well as the cardinality of the set.
 
 Run with Python console.
