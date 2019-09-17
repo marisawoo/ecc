@@ -1,6 +1,6 @@
 # find E(F), where F is a field, more specifically F = Z_p, p prime
 # E(F) : set of F-rational points on elliptic curve E
-# E : Y^2 = X^3 + 8X + 15
+# E : Y^2 = X^3 + AX + B
 
 def findSet(p, a, b):
     frp = [0]
