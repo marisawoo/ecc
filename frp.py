@@ -13,5 +13,9 @@ def findSet(p, a, b):
     print("cardinality: {0}".format(len(frp)))
     return frp
 
-
+def findInverse(b, p):
+    for i in range(p):
+        if (b*i)%p == 1:
+            return i
+    print("Did not find inverse")
     
