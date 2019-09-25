@@ -1,6 +1,6 @@
 # Elliptic-Curve-Calculator
-Elliptic curve: E(Fp): Y^2 =X^3+AX+B \
-More specifically F = Z_p, p prime
+Elliptic curve over a finite field: E(F<sub>p</sub>): Y<sup>2</sup> =X<sup>3</sup>+AX+B \
+Where F = Z<sub>p</sub>, p prime\
 Note: It is not checked if p is a prime, please enter a number that is prime.
 
 ```findSet(prime, a, b)``` returns the set of F-rational points on E and prints the cardinality of the set. 
