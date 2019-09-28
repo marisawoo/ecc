@@ -3,6 +3,16 @@ Elliptic curve over a finite field: E(F<sub>p</sub>): Y<sup>2</sup> =X<sup>3</su
 Where F = Z<sub>p</sub>, p prime\
 Note: It is not checked if p is a prime, please enter a number that is prime.
 
+## Variables
+```p``` Z<sub>p</sub>, p prime \
+```a``` coffeicient A in elliptic curve \
+```b``` coefficient B in elliptic curve \
+```(x1, y1)``` point P \
+```(x2, y2)``` point Q (for point addition) \
+
+
+## Computations
+
 ```findSet(prime, a, b)``` returns the set of F-rational points on E and prints the cardinality of the set. 
 
 ```findFRPSize(prime, a, b)``` returns the cardinality of F-rational points on E.
