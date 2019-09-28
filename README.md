@@ -8,7 +8,7 @@ Note: It is not checked if p is a prime, please enter a number that is prime.
 ```a``` coffeicient A in elliptic curve \
 ```b``` coefficient B in elliptic curve \
 ```(x1, y1)``` point P \
-```(x2, y2)``` point Q (for point addition) \
+```(x2, y2)``` point Q (for point addition) 
 
 
 ## Computations
