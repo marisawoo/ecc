@@ -65,7 +65,7 @@ def pointMult(x1, y1, a, b, prime, k):
 
 def checkPrime(p):
     divisor = p//2
-    while p >= 1:
+    while divisor >= 2:
         if p%divisor == 0:
             return False
         else:
