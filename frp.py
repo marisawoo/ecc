@@ -63,10 +63,10 @@ def pointMult(x1, y1, a, b, prime, k):
             point = pointAdd(point[0], point[1], x1, y1, a, prime)
     return point
 
-def checkPrime(p):
-    divisor = p//2
+def checkPrime(prime):
+    divisor = prime//2
     while divisor >= 2:
-        if p%divisor == 0:
+        if prime%divisor == 0:
             return False
         else:
             divisor -= 1
