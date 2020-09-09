@@ -1,7 +1,7 @@
 # Elliptic-Curve-Calculator
 Elliptic curve over a finite field: E(F<sub>p</sub>): Y<sup>2</sup> =X<sup>3</sup>+AX+B \
 Where F = Z<sub>p</sub>, p prime\
-Note: It is not checked if p is a prime, please enter a number that is prime.
+Note: It doesn't check if p is a prime, please enter a number that is prime.
 
 ## Variables
 ```p``` Z<sub>p</sub>, p prime \
