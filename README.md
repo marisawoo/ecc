@@ -21,4 +21,4 @@ Note: It is not checked if p is a prime, please enter a number that is prime.
 
 ```pointMult(x1, y1, a, b, prime, k)``` returns the result of point multiplication kP for a valid point P on E, P=(x1, y1).
 
-Run with Python console.
+Run with Python console. :)
